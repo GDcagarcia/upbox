@@ -1,0 +1,902 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited, a:active {
+  color: inherit;
+}
+a:hover {
+  color: #EF8094;
+}
+
+p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+h2 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+
+h3 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle img {
+  align-self: center;
+  justify-self: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+}
+header button {
+  border: 2px solid #4A4A4A;
+  border-radius: 300px;
+  background-color: white;
+}
+header button:hover {
+  background-color: #EF8094;
+  color: white;
+  border-color: white;
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container .logo {
+  display: flex;
+}
+header .header-container .logo #upbox-logo {
+  align-self: center;
+  margin-left: 1rem;
+}
+header .header-container .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-container #hamburger-menu {
+  align-self: center;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.look-good {
+  background: url(../img/pictures/BOX.png) no-repeat;
+  flex-direction: column;
+  background-color: #F5F8FF;
+}
+.look-good .title-desc-but {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.look-good h1 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+.look-good button {
+  border: 4px solid #EF8094;
+  border-radius: 300px;
+  background-color: white;
+  width: 183px;
+  height: 61px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+}
+.look-good button:hover {
+  background-color: #EF8094;
+  color: white;
+  border-color: white;
+}
+
+.pick-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.pick-plan .two-cards {
+  display: flex;
+  width: 100%;
+}
+.pick-plan .two-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid rgba(196, 196, 196, 0.3);
+  border-radius: 6px;
+  background-repeat: no-repeat;
+}
+.pick-plan .two-cards .card button {
+  background: #EF8094;
+  border: 4px solid #EF8094;
+  border-radius: 300px;
+  color: white;
+  font-family: "DM Sans";
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+.pick-plan .two-cards .card button:hover {
+  background-color: #f991a4;
+  border-color: #f991a4;
+}
+.pick-plan .two-cards #blue {
+  background: url(../img/pictures/blue-spiral.png);
+  background-size: cover;
+}
+.pick-plan .two-cards #pink {
+  background: url(../img/pictures/pink-spiral.png);
+  background-size: cover;
+}
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+}
+.how-it-works button {
+  border: solid #EF8094 4px;
+  border-radius: 300px;
+  background-color: white;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  align-self: center;
+}
+.how-it-works button:hover {
+  background-color: #EF8094;
+  color: white;
+  border-color: #EF8094;
+}
+
+.setup {
+  display: flex;
+}
+.setup .setup-img {
+  padding-top: 30px;
+  position: relative;
+  margin-bottom: 36px;
+  background: url(../img/section1/art1.png) no-repeat;
+  background-position: left top 10px;
+  background-size: 288px;
+}
+.setup .setup-img .number {
+  position: absolute;
+  top: 75px;
+  left: 120px;
+}
+.setup .setup-img .main-picture {
+  padding-left: 90px;
+}
+.setup .setup-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 13%;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review .review-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 13%;
+}
+
+.try {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.try .try-img {
+  padding-right: 75px;
+  position: relative;
+  margin-bottom: 36px;
+  background: url(../img/section3/art3.png) no-repeat;
+  background-position: right bottom;
+  background-size: 195px;
+}
+.try .try-img .number {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+}
+.try .try-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 13%;
+}
+
+.social-posts {
+  background-color: #F5F8FF;
+  display: flex;
+  flex-direction: column;
+}
+.social-posts h2 {
+  font-size: 48px;
+}
+.social-posts img:hover {
+  opacity: 0.9;
+}
+.social-posts .gallery {
+  display: grid;
+  justify-content: space-evenly;
+}
+.social-posts .gallery .img-desc {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  gap: 31px;
+}
+.social-posts button {
+  background-color: #EF8094;
+  border: 4px solid #EF8094;
+  color: white;
+  border-radius: 300px;
+  letter-spacing: 0.12em;
+  line-height: 21px;
+  font-family: "DM Sans";
+  align-self: center;
+}
+.social-posts button:hover {
+  background-color: #f991a4;
+  border-color: #f991a4;
+}
+
+footer {
+  background-color: rgba(196, 196, 196, 0.3);
+  border: 2px solid #C4C4C4;
+}
+footer a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+footer .footer-upper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-upper .logo {
+  width: 132px;
+}
+footer .footer-upper .social-icons {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+}
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+footer .footer-grid .footer-item {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-grid .footer-item h5 {
+  margin-bottom: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.12em;
+  color: #000000;
+}
+footer .terms-privacy {
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    padding: 1rem;
+  }
+  .header-container #ub-logo {
+    height: 56px;
+  }
+  .header-container .menu a, .header-container .menu button {
+    display: none;
+    font-size: 14px;
+  }
+  .look-good {
+    padding: 43px 34px 409px 38px;
+    background-size: 650px;
+    background-attachment: scroll;
+    background-position: 58% 130%;
+  }
+  .subtitle {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 28px;
+  }
+  .pick-plan .two-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  .pick-plan .two-cards .card {
+    width: 349px;
+    padding-top: 28px;
+    padding-bottom: 34px;
+    gap: 8px;
+  }
+  .pick-plan .two-cards .card h3, .pick-plan .two-cards .card p {
+    font-size: 30px;
+  }
+  .pick-plan .two-cards .card button {
+    width: 179px;
+    height: 40px;
+    margin-top: 8px;
+  }
+  .pick-plan .small-desc {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 16px;
+  }
+  .setup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .setup .setup-img {
+    left: -40px;
+  }
+  .setup .setup-txt {
+    margin-bottom: 100px;
+  }
+  .review .review-img {
+    padding-top: 120px;
+    padding-bottom: 75px;
+    position: relative;
+    background: url(../img/section2/art2.png) no-repeat;
+    background-position: left bottom 90px;
+    background-size: 160px;
+  }
+  .review .number {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+  }
+  .review .review-txt {
+    position: relative;
+    top: -50px;
+  }
+  .try .try-img {
+    left: 32px;
+  }
+  .how-it-works button {
+    width: 284px;
+    height: 61px;
+    font-size: 16px;
+    margin-top: 80px;
+    margin-bottom: 138px;
+  }
+  .social-posts h2 {
+    margin-top: 56px;
+    margin-bottom: 23px;
+  }
+  .social-posts p {
+    font-size: 22px;
+  }
+  .social-posts .gallery {
+    grid-template-columns: auto;
+    row-gap: 80px;
+  }
+  .social-posts button {
+    width: 312px;
+    height: 61px;
+    font-size: 16px;
+    margin-top: 90px;
+    margin-bottom: 110px;
+  }
+  footer {
+    margin: 17px 13px;
+    border-radius: 6px;
+  }
+  footer h5 {
+    font-size: 16px;
+  }
+  footer hr {
+    border-top: 2px solid rgba(196, 196, 196, 0.3);
+  }
+  footer .footer-upper {
+    margin: 40px 34px;
+  }
+  footer .footer-upper .social-icons {
+    display: none;
+  }
+  footer .footer-grid {
+    grid-template-columns: auto auto;
+    row-gap: 41px;
+  }
+  footer .footer-grid a {
+    font-size: 12px;
+  }
+  footer .footer-bottom p {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    margin: 20px 40px 36px 34px;
+  }
+  footer .terms-privacy {
+    margin: 34px 36px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .terms-privacy a {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .header-container {
+    padding: 16px 40px;
+  }
+  .header-container #ub-logo {
+    height: 37px;
+  }
+  .header-container .menu {
+    font-size: 10px;
+    gap: 1rem;
+  }
+  .header-container .menu button {
+    width: 105px;
+    height: 32px;
+    font-size: 10px;
+  }
+  .header-container #hamburger-menu {
+    display: none;
+  }
+  .look-good {
+    padding: 18px 0px 189px 40px;
+    background-size: 750px;
+    background-attachment: scroll;
+    background-position: right -120px bottom -170px;
+  }
+  .look-good .title-desc-but {
+    width: 364px;
+  }
+  .look-good .title-desc-but h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .look-good .title-desc-but p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+  }
+  .look-good .title-desc-but button {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    width: 161px;
+    height: 49px;
+  }
+  .subtitle {
+    margin-top: 27px;
+    margin-bottom: 18px;
+    font-size: 32px;
+  }
+  .pick-plan .two-cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .pick-plan .two-cards .card {
+    width: 305px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    gap: 8px;
+  }
+  .pick-plan .two-cards .card h3 {
+    font-size: 20px;
+  }
+  .pick-plan .two-cards .card p {
+    font-size: 24px;
+  }
+  .pick-plan .two-cards .card button {
+    width: 106px;
+    height: 32px;
+    margin-top: 8px;
+    font-size: 8px;
+  }
+  .pick-plan .small-desc {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 12px;
+    margin-bottom: 80px;
+  }
+  .how-it-works {
+    position: relative;
+  }
+  .how-it-works p {
+    font-size: 14px;
+  }
+  .how-it-works h4 {
+    font-size: 32px;
+  }
+  .how-it-works .setup {
+    position: relative;
+    top: -60px;
+  }
+  .how-it-works .setup .setup-img {
+    transform: scale(0.8);
+    left: -70px;
+  }
+  .how-it-works .setup .setup-txt {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 311px;
+    gap: 10px;
+  }
+  .how-it-works .review {
+    position: relative;
+  }
+  .how-it-works .review .review-img {
+    transform: scale(0.9);
+    top: -160px;
+    right: 30px;
+    align-self: flex-end;
+    padding-top: 45px;
+    padding-right: 100px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 36px;
+    background: url(../img/section2/mancha.png) no-repeat, url(../img/section2/art2.png) no-repeat;
+    background-position: right top, left bottom 85px;
+    background-size: 288px, 160px;
+  }
+  .how-it-works .review .review-img .number {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+  }
+  .how-it-works .review .review-txt {
+    position: relative;
+    align-self: flex-end;
+    width: 320px;
+    top: -195px;
+    right: -20px;
+    gap: 5px;
+  }
+  .how-it-works .review .review-txt h4 {
+    padding-right: 50px;
+  }
+  .how-it-works .try {
+    position: relative;
+    top: -175px;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .how-it-works .try .try-img {
+    transform: scale(0.8);
+    left: -30px;
+    top: 0px;
+  }
+  .how-it-works .try .try-txt {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 409px;
+    gap: 10px;
+  }
+  .how-it-works button {
+    position: absolute;
+    width: 225px;
+    height: 49px;
+    bottom: 100px;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+  }
+  .social-posts h2 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  .social-posts p {
+    font-size: 20px;
+  }
+  .social-posts .gallery {
+    grid-template-columns: auto auto;
+    row-gap: 60px;
+  }
+  .social-posts button {
+    width: 320px;
+    height: 61px;
+    font-size: 16px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+  }
+  footer {
+    margin: 40px;
+    border-radius: 6px;
+  }
+  footer h5 {
+    font-size: 20px;
+  }
+  footer hr {
+    border-top: 2px solid rgba(196, 196, 196, 0.3);
+  }
+  footer .footer-upper {
+    margin: 53px 62px;
+  }
+  footer .footer-grid {
+    grid-template-columns: auto auto;
+    row-gap: 41px;
+  }
+  footer .footer-grid a {
+    font-size: 14px;
+  }
+  footer .footer-bottom p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    margin: 20px 120px 36px 62px;
+  }
+  footer .terms-privacy {
+    margin: 34px 62px;
+    gap: 60px;
+  }
+  footer .terms-privacy a {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-container {
+    padding: 16px 110px;
+  }
+  .header-container #ub-logo {
+    height: 56px;
+  }
+  .header-container .menu {
+    font-size: 14px;
+    gap: 2rem;
+  }
+  .header-container .menu button {
+    font-size: 14px;
+    width: 124px;
+    height: 37px;
+  }
+  .header-container #hamburger-menu {
+    display: none;
+  }
+  .look-good {
+    background-image: url(../img/pictures/BOX.png), url(../img/pictures/Marker.png);
+    background-repeat: no-repeat, no-repeat;
+    padding: 105px 0px 122px 111px;
+    background-size: 1000px, 276px;
+    background-attachment: scroll, scroll;
+    background-position: right 50px, right 80px bottom 70px;
+  }
+  .look-good .title-desc-but {
+    width: 450px;
+  }
+  .subtitle {
+    margin-top: 71px;
+    margin-bottom: 46px;
+    font-size: 32px;
+  }
+  .pick-plan .two-cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .pick-plan .two-cards .card {
+    width: 575px;
+    padding-top: 50px;
+    padding-bottom: 53px;
+    gap: 16px;
+  }
+  .pick-plan .two-cards .card h3 {
+    font-size: 36px;
+  }
+  .pick-plan .two-cards .card p {
+    font-size: 44px;
+  }
+  .pick-plan .two-cards .card button {
+    width: 200px;
+    height: 61px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .pick-plan .small-desc {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 43px;
+    margin-bottom: 50px;
+  }
+  .how-it-works {
+    position: relative;
+  }
+  .how-it-works p {
+    font-size: 18px;
+  }
+  .how-it-works h4 {
+    font-size: 36px;
+  }
+  .how-it-works .setup {
+    display: flex;
+    position: relative;
+    top: -40px;
+  }
+  .how-it-works .setup .setup-img {
+    left: 200px;
+  }
+  .how-it-works .setup .setup-txt {
+    position: absolute;
+    top: 100px;
+    width: 391px;
+    right: 200px;
+    gap: 20px;
+  }
+  .how-it-works button {
+    width: 284px;
+    height: 61px;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    margin-top: 170px;
+    margin-bottom: 136px;
+  }
+  .review {
+    position: relative;
+  }
+  .review .review-img {
+    align-self: center;
+    left: 100px;
+    padding-top: 45px;
+    padding-right: 100px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 36px;
+    background: url(../img/section2/mancha.png) no-repeat, url(../img/section2/art2.png) no-repeat;
+    background-position: right top, left bottom 85px;
+    background-size: 288px, 160px;
+  }
+  .review .number {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+  }
+  .review .review-txt {
+    position: relative;
+    align-self: flex-end;
+    width: 409px;
+    top: -15px;
+    right: 140px;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  .review .review-txt h4 {
+    padding-right: 100px;
+  }
+  .try {
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .try .try-img {
+    left: 200px;
+  }
+  .try .try-txt {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 453px;
+    gap: 10px;
+  }
+  .social-posts {
+    background-image: url(/img/pictures/squig2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 18% right 24%;
+  }
+  .social-posts h2 {
+    margin-top: 100px;
+    margin-bottom: 86px;
+  }
+  .social-posts p {
+    font-size: 26px;
+  }
+  .social-posts .gallery {
+    grid-template-columns: auto auto auto auto;
+  }
+  .social-posts button {
+    width: 320px;
+    height: 61px;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 94px;
+  }
+  footer {
+    margin: 30px 32px;
+    border-radius: 6px;
+  }
+  footer h5 {
+    font-size: 20px;
+  }
+  footer hr {
+    border-top: 2px solid rgba(196, 196, 196, 0.3);
+  }
+  footer .footer-upper {
+    margin: 44px 80px;
+  }
+  footer .footer-grid {
+    margin-top: 61px;
+    grid-template-columns: auto auto auto auto;
+  }
+  footer .footer-grid a {
+    font-size: 14px;
+  }
+  footer .footer-bottom {
+    display: flex;
+    justify-content: end;
+  }
+  footer .footer-bottom p {
+    display: none;
+  }
+  footer .terms-privacy {
+    margin: 34px 62px;
+    gap: 60px;
+  }
+  footer .terms-privacy a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=styles.css.map */
